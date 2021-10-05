@@ -18,4 +18,4 @@ def test_guest_should_see_login_link(browser):
     welcome_text = welcome_text_elt.text
     # с помощью assert проверяем, что ожидаемый текст совпадает с текстом на странице сайта   
     assert("Coders at Work" == welcome_text), print("Ошибка:"+ welcome_text)
-    time.sleep(10)
+    time.sleep(30)
